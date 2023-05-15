@@ -4,6 +4,18 @@
       <div class="logo">
         <p>Nome da loja</p>
       </div>
+      <svg width="50" height="40" viewBox="0 0 50 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="50" height="40" rx="6" fill="#ED2B46" fill-opacity="0.1"/>
+<g clip-path="url(#clip0_3206_1302)">
+<path d="M34.0616 10H15.9386C15.1059 10 14.6857 11.0104 15.2757 11.6004L22.5 18.8258V26.875C22.5 27.1809 22.6493 27.4676 22.8999 27.643L26.0249 29.8298C26.6414 30.2613 27.5 29.8239 27.5 29.0617V18.8258L34.7245 11.6004C35.3133 11.0116 34.896 10 34.0616 10Z" fill="#ED2B46"/>
+</g>
+<defs>
+<clipPath id="clip0_3206_1302">
+<rect width="20" height="20" fill="white" transform="translate(15 10)"/>
+</clipPath>
+</defs>
+</svg>
+
       <div class="user">
         <div class="info">
           <p>Nickolas G.</p>
@@ -50,6 +62,7 @@ header {
   align-items: center;
   font-weight: 500;
   color: #464E5F;
+  flex: 1;
 }
 
 .logo p {
@@ -63,6 +76,7 @@ header {
   height: 30px;
   /* justify-content: space-around; */
   gap: 20px;
+  margin-left: 20px;
 
 }
 
@@ -70,8 +84,10 @@ header {
   margin: 0;
 }
 
+
 .info p:first-child{
   font-size: 13px;
+  color: #E72F48;
 }
 
 .info p {
