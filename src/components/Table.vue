@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <table class="table table-bordeless">
       <thead>
         <tr class="thead">
@@ -10,34 +10,202 @@
       </thead>
       <tbody>
         <tr>
-          <td>Volkswagen Fox Xtreme 1.6 Flex 8V 5p 2021</td>
-          <td>Texaco Havoline Ultra W Sae 5W40 SN</td>
-          <td>EDITAR</td>
+          <td><p>Volkswagen Fox Xtreme 1.6 Flex 8V 5p 2021</p></td>
+          <td>
+            <p>
+              Texaco Havoline Ultra W Sae 5W40 SN
+            </p>
+          </td>
+          <td>
+            <button class="editar-button">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_3215_1372)">
+                  <path
+                    d="M19.4492 5.5509L17.6484 7.35168C17.4648 7.53528 17.168 7.53528 16.9844 7.35168L12.6484 3.01575C12.4648 2.83215 12.4648 2.53528 12.6484 2.35168L14.4492 0.550903C15.1797 -0.179565 16.3672 -0.179565 17.1016 0.550903L19.4492 2.89856C20.1836 3.62903 20.1836 4.81653 19.4492 5.5509ZM11.1016 3.89856L0.84374 14.1564L0.0156149 18.9025C-0.0976663 19.5431 0.460927 20.0978 1.10155 19.9884L5.84765 19.1564L16.1055 8.89856C16.2891 8.71497 16.2891 8.41809 16.1055 8.2345L11.7695 3.89856C11.582 3.71497 11.2851 3.71497 11.1016 3.89856ZM4.84765 13.2775C4.6328 13.0626 4.6328 12.7189 4.84765 12.504L10.8633 6.4884C11.0781 6.27356 11.4219 6.27356 11.6367 6.4884C11.8516 6.70325 11.8516 7.047 11.6367 7.26184L5.62108 13.2775C5.40624 13.4923 5.06249 13.4923 4.84765 13.2775ZM3.43749 16.5626H5.31249V17.9806L2.79296 18.422L1.57811 17.2072L2.01952 14.6876H3.43749V16.5626Z"
+                    fill="#ED2B46"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_3215_1372">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              Editar
+            </button>
+          </td>
         </tr>
         <tr>
-          <td>Volkswagen Fox Xtreme 1.6 Flex 8V 5p 2021</td>
-          <td>Texaco Havoline Ultra W Sae 5W40 SN</td>
-          <td>EDITAR</td>
+          <td><p>Volkswagen Fox Xtreme 1.6 Flex 8V 5p 2021</p></td>
+          <td>
+            <p>
+              Texaco Havoline Ultra W Sae 5W40 SN
+            </p>
+          </td>
+          <td>
+            <button class="editar-button">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_3215_1372)">
+                  <path
+                    d="M19.4492 5.5509L17.6484 7.35168C17.4648 7.53528 17.168 7.53528 16.9844 7.35168L12.6484 3.01575C12.4648 2.83215 12.4648 2.53528 12.6484 2.35168L14.4492 0.550903C15.1797 -0.179565 16.3672 -0.179565 17.1016 0.550903L19.4492 2.89856C20.1836 3.62903 20.1836 4.81653 19.4492 5.5509ZM11.1016 3.89856L0.84374 14.1564L0.0156149 18.9025C-0.0976663 19.5431 0.460927 20.0978 1.10155 19.9884L5.84765 19.1564L16.1055 8.89856C16.2891 8.71497 16.2891 8.41809 16.1055 8.2345L11.7695 3.89856C11.582 3.71497 11.2851 3.71497 11.1016 3.89856ZM4.84765 13.2775C4.6328 13.0626 4.6328 12.7189 4.84765 12.504L10.8633 6.4884C11.0781 6.27356 11.4219 6.27356 11.6367 6.4884C11.8516 6.70325 11.8516 7.047 11.6367 7.26184L5.62108 13.2775C5.40624 13.4923 5.06249 13.4923 4.84765 13.2775ZM3.43749 16.5626H5.31249V17.9806L2.79296 18.422L1.57811 17.2072L2.01952 14.6876H3.43749V16.5626Z"
+                    fill="#ED2B46"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_3215_1372">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              Editar
+            </button>
+          </td>
         </tr>
         <tr>
-          <td>Volkswagen Fox Xtreme 1.6 Flex 8V 5p 2021</td>
-          <td>Texaco Havoline Ultra W Sae 5W40 SN</td>
-          <td>EDITAR</td>
+          <td><p>Volkswagen Fox Xtreme 1.6 Flex 8V 5p 2021</p></td>
+          <td>
+            <p>
+              Texaco Havoline Ultra W Sae 5W40 SN
+            </p>
+          </td>
+          <td>
+            <button class="editar-button">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_3215_1372)">
+                  <path
+                    d="M19.4492 5.5509L17.6484 7.35168C17.4648 7.53528 17.168 7.53528 16.9844 7.35168L12.6484 3.01575C12.4648 2.83215 12.4648 2.53528 12.6484 2.35168L14.4492 0.550903C15.1797 -0.179565 16.3672 -0.179565 17.1016 0.550903L19.4492 2.89856C20.1836 3.62903 20.1836 4.81653 19.4492 5.5509ZM11.1016 3.89856L0.84374 14.1564L0.0156149 18.9025C-0.0976663 19.5431 0.460927 20.0978 1.10155 19.9884L5.84765 19.1564L16.1055 8.89856C16.2891 8.71497 16.2891 8.41809 16.1055 8.2345L11.7695 3.89856C11.582 3.71497 11.2851 3.71497 11.1016 3.89856ZM4.84765 13.2775C4.6328 13.0626 4.6328 12.7189 4.84765 12.504L10.8633 6.4884C11.0781 6.27356 11.4219 6.27356 11.6367 6.4884C11.8516 6.70325 11.8516 7.047 11.6367 7.26184L5.62108 13.2775C5.40624 13.4923 5.06249 13.4923 4.84765 13.2775ZM3.43749 16.5626H5.31249V17.9806L2.79296 18.422L1.57811 17.2072L2.01952 14.6876H3.43749V16.5626Z"
+                    fill="#ED2B46"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_3215_1372">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              Editar
+            </button>
+          </td>
         </tr>
         <tr>
-          <td>Volkswagen Fox Xtreme 1.6 Flex 8V 5p 2021</td>
-          <td>Texaco Havoline Ultra W Sae 5W40 SN</td>
-          <td>EDITAR</td>
+          <td><p>Volkswagen Fox Xtreme 1.6 Flex 8V 5p 2021</p></td>
+          <td>
+            <p>
+              Texaco Havoline Ultra W Sae 5W40 SN
+            </p>
+          </td>
+          <td>
+            <button class="editar-button">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_3215_1372)">
+                  <path
+                    d="M19.4492 5.5509L17.6484 7.35168C17.4648 7.53528 17.168 7.53528 16.9844 7.35168L12.6484 3.01575C12.4648 2.83215 12.4648 2.53528 12.6484 2.35168L14.4492 0.550903C15.1797 -0.179565 16.3672 -0.179565 17.1016 0.550903L19.4492 2.89856C20.1836 3.62903 20.1836 4.81653 19.4492 5.5509ZM11.1016 3.89856L0.84374 14.1564L0.0156149 18.9025C-0.0976663 19.5431 0.460927 20.0978 1.10155 19.9884L5.84765 19.1564L16.1055 8.89856C16.2891 8.71497 16.2891 8.41809 16.1055 8.2345L11.7695 3.89856C11.582 3.71497 11.2851 3.71497 11.1016 3.89856ZM4.84765 13.2775C4.6328 13.0626 4.6328 12.7189 4.84765 12.504L10.8633 6.4884C11.0781 6.27356 11.4219 6.27356 11.6367 6.4884C11.8516 6.70325 11.8516 7.047 11.6367 7.26184L5.62108 13.2775C5.40624 13.4923 5.06249 13.4923 4.84765 13.2775ZM3.43749 16.5626H5.31249V17.9806L2.79296 18.422L1.57811 17.2072L2.01952 14.6876H3.43749V16.5626Z"
+                    fill="#ED2B46"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_3215_1372">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              Editar
+            </button>
+          </td>
         </tr>
         <tr>
-          <td>Volkswagen Fox Xtreme 1.6 Flex 8V 5p 2021</td>
-          <td>Texaco Havoline Ultra W Sae 5W40 SN</td>
-          <td>EDITAR</td>
+          <td><p>Volkswagen Fox Xtreme 1.6 Flex 8V 5p 2021</p></td>
+          <td>
+            <p>
+              Texaco Havoline Ultra W Sae 5W40 SN
+            </p>
+          </td>
+          <td>
+            <button class="editar-button">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_3215_1372)">
+                  <path
+                    d="M19.4492 5.5509L17.6484 7.35168C17.4648 7.53528 17.168 7.53528 16.9844 7.35168L12.6484 3.01575C12.4648 2.83215 12.4648 2.53528 12.6484 2.35168L14.4492 0.550903C15.1797 -0.179565 16.3672 -0.179565 17.1016 0.550903L19.4492 2.89856C20.1836 3.62903 20.1836 4.81653 19.4492 5.5509ZM11.1016 3.89856L0.84374 14.1564L0.0156149 18.9025C-0.0976663 19.5431 0.460927 20.0978 1.10155 19.9884L5.84765 19.1564L16.1055 8.89856C16.2891 8.71497 16.2891 8.41809 16.1055 8.2345L11.7695 3.89856C11.582 3.71497 11.2851 3.71497 11.1016 3.89856ZM4.84765 13.2775C4.6328 13.0626 4.6328 12.7189 4.84765 12.504L10.8633 6.4884C11.0781 6.27356 11.4219 6.27356 11.6367 6.4884C11.8516 6.70325 11.8516 7.047 11.6367 7.26184L5.62108 13.2775C5.40624 13.4923 5.06249 13.4923 4.84765 13.2775ZM3.43749 16.5626H5.31249V17.9806L2.79296 18.422L1.57811 17.2072L2.01952 14.6876H3.43749V16.5626Z"
+                    fill="#ED2B46"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_3215_1372">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              Editar
+            </button>
+          </td>
         </tr>
         <tr>
-          <td>Volkswagen Fox Xtreme 1.6 Flex 8V 5p 2021</td>
-          <td>Texaco Havoline Ultra W Sae 5W40 SN</td>
-          <td>EDITAR</td>
+          <td><p>Volkswagen Fox Xtreme 1.6 Flex 8V 5p 2021</p></td>
+          <td>
+            <p>
+              Texaco Havoline Ultra W Sae 5W40 SN
+            </p>
+          </td>
+          <td>
+            <button class="editar-button">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_3215_1372)">
+                  <path
+                    d="M19.4492 5.5509L17.6484 7.35168C17.4648 7.53528 17.168 7.53528 16.9844 7.35168L12.6484 3.01575C12.4648 2.83215 12.4648 2.53528 12.6484 2.35168L14.4492 0.550903C15.1797 -0.179565 16.3672 -0.179565 17.1016 0.550903L19.4492 2.89856C20.1836 3.62903 20.1836 4.81653 19.4492 5.5509ZM11.1016 3.89856L0.84374 14.1564L0.0156149 18.9025C-0.0976663 19.5431 0.460927 20.0978 1.10155 19.9884L5.84765 19.1564L16.1055 8.89856C16.2891 8.71497 16.2891 8.41809 16.1055 8.2345L11.7695 3.89856C11.582 3.71497 11.2851 3.71497 11.1016 3.89856ZM4.84765 13.2775C4.6328 13.0626 4.6328 12.7189 4.84765 12.504L10.8633 6.4884C11.0781 6.27356 11.4219 6.27356 11.6367 6.4884C11.8516 6.70325 11.8516 7.047 11.6367 7.26184L5.62108 13.2775C5.40624 13.4923 5.06249 13.4923 4.84765 13.2775ZM3.43749 16.5626H5.31249V17.9806L2.79296 18.422L1.57811 17.2072L2.01952 14.6876H3.43749V16.5626Z"
+                    fill="#ED2B46"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_3215_1372">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              Editar
+            </button>
+          </td>
         </tr>
       </tbody>
     </table>
@@ -46,13 +214,16 @@
 
 <script>
 export default {
-  name: 'TableComponent',
+  name: "TableComponent",
 };
 </script>
 
 <script setup></script>
 
 <style scoped>
+.container-fluid {
+  padding: 0;
+}
 .thead {
   background-color: #203972;
   color: #ffffff;
@@ -61,10 +232,38 @@ export default {
   border-radius: 12px;
   overflow: hidden;
   background-color: #ffffff;
+  vertical-align: baseline;
   text-align: left;
 }
 
 tr td {
   border-radius: 6px;
+}
+
+td {
+ padding: 0;
+  box-sizing: border-box;
+}
+td p {
+  margin: 0;
+}
+
+.editar-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 20px;
+  width: 120px;
+  height: 46px;
+  background-color: rgba(237, 43, 70, 0.1);
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 17px;
+  /* line-height: 26px; */
+
+  color: #ed2b46;
+  border: none;
+  cursor: pointer;
 }
 </style>

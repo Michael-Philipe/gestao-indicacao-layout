@@ -2,7 +2,11 @@
   <SideBar />
   <div class="container-fluid" style="padding: 0">
     <Header />
-    <Table />
+    <main class="container-fluid" style="padding: 0 48px;">
+      <FilterCar/>
+
+      <Table/>
+    </main>
   </div>
 </template>
 
@@ -10,6 +14,7 @@
 import SideBar from './components/SideBar.vue';
 import Header from './components/Header.vue';
 import Table from './components/Table.vue';
+import FilterCar from './components/FilterCar.vue'
 </script>
 
 <style>
@@ -17,16 +22,24 @@ import Table from './components/Table.vue';
   font-family: 'Poppins';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   background-color: #f3f3f3;
-  margin-top: 60px;
   height: 100%;
   margin: 0;
-  max-width: 1500px;
   display: flex;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 36px ;
+}
+
 a {
   padding: 0;
+}
+
+p{
+  margin: 0;
 }
 </style>
