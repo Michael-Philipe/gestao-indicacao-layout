@@ -67,7 +67,7 @@
         <div class="row">
           <div class="input-container col">
           <label for="marca">Marca: <span>*</span></label>
-          <select id="marca" name="marca">
+          <select id="marca" name="marca" v-model="data.marca">
             <option value="volvo">! Volkswagen</option>
           </select>
           <span class="arrow-down">
@@ -79,7 +79,7 @@
         </div>
         <div class="input-container col">
           <label for="marca">Modelo: <span>*</span></label>
-          <select id="marca" name="marca">
+          <select id="marca" name="marca" v-model="data.modelo">
             <option value="volvo">! Fox</option>
           </select>
           <span class="arrow-down">
@@ -91,7 +91,7 @@
         </div>
         <div class="input-container col">
           <label for="marca">Versão: <span>*</span></label>
-          <input type="text" placeholder="Versão do motor" />
+          <input type="text" placeholder="Versão do motor" v-model="data.versao"/>
         </div>
         </div>
 
@@ -104,7 +104,7 @@
 </svg>
 
           </span>
-          <select id="data-inicio" name="data-inicio">
+          <select id="data-inicio" name="data-inicio" v-model="data.dataInicio">
             <option value="volvo">2019</option>
             <option value="volvo">2020</option>
             <option value="volvo">2021</option>
@@ -125,7 +125,7 @@
 </svg>
 
           </span>
-          <select id="data-final" name="data-final">
+          <select id="data-final" name="data-final" v-model="data.dataFinal">
             <option value="volvo">2019</option>
             <option value="volvo">2020</option>
             <option value="volvo">2021</option>
@@ -176,7 +176,24 @@ export default {
 </script>
 
 <script setup>
+import { ref, watch } from 'vue';
 
+
+const data = ref({
+  marca: '',
+  modelo: '',
+  versao: '',
+  dataInicio: '',
+  dataFinal: ''
+})
+
+
+watch(data, async (newData, oldData) => {
+  console.log(newData)
+  console.log('deu')
+}, {
+  deep: true
+})
 
   
   
