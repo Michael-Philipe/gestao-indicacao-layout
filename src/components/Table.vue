@@ -265,5 +265,20 @@ td p {
   color: #ed2b46;
   border: none;
   cursor: pointer;
+
+  
 }
+tbody tr td:last-child {
+    text-align: -webkit-right;
+  }
+
+  tbody tr td {
+    padding: 15px;
+  }
+  thead tr th {
+    padding: 20px;
+  }
+
+
+
 </style>
